@@ -1,0 +1,6 @@
+export const FIND_ADD_OWNER_URL = 'http://localhost:8080/owners/find'
+export const EMPTY_OWNER_SEARCH_URL = 'http://localhost:8080/owners?lastName='
+export const FIND_OWNER_BUTTON = '#search-owner-form > div:nth-child(2) > div > button'
+export const ADD_OWNER_BUTTON = '#search-owner-form > a'
+export const LIST_OWNER_ROW_NAME = '#owners > tbody > tr:nth-child(1)'
+export const SEARCH_INPUT_LAST_NAME = '#lastName'
